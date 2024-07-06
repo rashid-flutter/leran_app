@@ -1,0 +1,112 @@
+name: final_project
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  cupertino_icons: ^1.0.6
+  curved_navigation_bar: ^1.0.3
+  smooth_page_indicator: ^1.1.0
+  animated_splash_screen: ^1.3.0
+  path_provider: ^2.1.3
+  image_picker: ^1.1.0
+  file_picker: ^8.0.3
+  get: ^4.6.6
+  video_player: ^2.8.6
+  chewie: ^1.8.1
+
+  # firebase_core: ^2.30.1
+  # firebase_storage: ^11.7.4
+  # firebase_messaging: ^14.9.1
+  # firebase_auth: ^4.19.4
+  lottie: ^3.1.0
+  http: ^1.2.1
+  permission_handler: ^11.3.1
+  provider: ^6.1.2
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/hello.png"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/hello.png
+    - assets/images/photo4.gif
+    - assets/images/photo1.png
+    - assets/images/photo3.gif
+    - assets/alphabet/A.jpg
+    - assets/alphabet/B.jpg
+    - assets/alphabet/C.jpg
+    - assets/alphabet/D.jpg
+    - assets/alphabet/E.jpg
+    - assets/alphabet/F.jpg
+    - assets/alphabet/G.jpg
+    - assets/alphabet/H.jpg
+    - assets/alphabet/I.jpg
+    - assets/alphabet/J.gif
+    - assets/alphabet/K.jpg
+    - assets/alphabet/L.jpg
+    - assets/alphabet/M.jpg
+    - assets/alphabet/N.jpg
+    - assets/alphabet/O.jpg
+    - assets/alphabet/P.jpg
+    - assets/alphabet/Q.jpg
+    - assets/alphabet/R.jpg
+    - assets/alphabet/S.jpg
+    - assets/alphabet/T.jpg
+    - assets/alphabet/U.jpg
+    - assets/alphabet/V.jpg
+    - assets/alphabet/W.jpg
+    - assets/alphabet/X.jpg
+    - assets/alphabet/Y.jpg
+    - assets/alphabet/Z.gif
+    - assets/color/black.gif
+    - assets/color/blue.gif
+    - assets/color/green.gif
+    - assets/color/orange.gif
+    - assets/color/red.gif
+    - assets/color/white.gif
+    - assets/color/yellow.gif
+    - assets/expression/angry.gif
+    - assets/expression/bored.gif
+    - assets/expression/excited.gif
+    - assets/expression/happy.gif
+    - assets/expression/nervous.gif
+    - assets/expression/sad.gif
+    - assets/greeting/after.gif
+    - assets/greeting/goodbye.gif
+    - assets/greeting/hello.gif
+    - assets/greeting/morning.gif
+    - assets/greeting/night.gif
+    - assets/greeting/seeyoulater.gif
+    - assets/numbers/1.png
+    - assets/numbers/2.png
+    - assets/numbers/3.png
+    - assets/numbers/4.png
+    - assets/numbers/5.png
+    - assets/numbers/6.png
+    - assets/numbers/7.png
+    - assets/numbers/8.png
+    - assets/numbers/9.png
+    - assets/numbers/10.gif
+
