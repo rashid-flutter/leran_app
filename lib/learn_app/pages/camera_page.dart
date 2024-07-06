@@ -16,7 +16,7 @@ class CameraPage extends StatefulWidget {
 }
 
 class _CameraPageState extends State<CameraPage> {
-  File? _file;
+  File? file;
   int cntr = 0;
   String output = 'Initial Output';
 
@@ -140,7 +140,7 @@ class _CameraPageState extends State<CameraPage> {
 
       if (videoFile != null) {
         setState(() {
-          _file = File(videoFile.path);
+          file = File(videoFile.path);
           counter.increment();
           print('cntr = ${counter.value}');
         });
@@ -157,14 +157,17 @@ class _CameraPageState extends State<CameraPage> {
         await predict(videoFile.path, counter);
 
         // Close loading dialog
+        // ignore: use_build_context_synchronously
         Navigator.of(context).pop();
 
         // Navigate to ResultPage
         Navigator.push(
+          // ignore: use_build_context_synchronously
           context,
           MaterialPageRoute(builder: (context) => ResultPage(output: output)),
         );
       } else {
+        // ignore: avoid_print
         print("No file selected");
       }
     } catch (e) {
