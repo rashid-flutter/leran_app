@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'camera_page.dart';
 import 'learn_basics.dart';
-import 'start_page.dart';
+import '../splash/start_page.dart';
 
 class FeaturesPage extends StatefulWidget {
   // ignore: use_super_parameters
@@ -15,7 +15,6 @@ class FeaturesPage extends StatefulWidget {
 }
 
 class _FeaturesPageState extends State<FeaturesPage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,7 +52,7 @@ class _FeaturesPageState extends State<FeaturesPage> {
                   child: Align(
                     child: Padding(
                       padding:
-                      const EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
+                          const EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
                       child: Container(
                         width: 190,
                         height: 190,
@@ -71,7 +70,7 @@ class _FeaturesPageState extends State<FeaturesPage> {
                   child: Align(
                     child: Padding(
                       padding:
-                      const EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
+                          const EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
                       child: Container(
                         width: 190,
                         height: 190,

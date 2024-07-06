@@ -4,7 +4,7 @@ import '../colors/color_page.dart';
 import '../bottom_bar/curvedNav.dart';
 import '../expression/expression_page.dart';
 import 'greeting_page.dart';
-import 'numbers_page.dart';
+import '../numbers/numbers_page.dart';
 
 class CustomElevatedButton extends StatelessWidget {
   final String buttonText;
