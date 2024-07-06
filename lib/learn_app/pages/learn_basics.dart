@@ -54,9 +54,9 @@ class _LearnBasicsState extends State<LearnBasics> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color.fromARGB(213, 178, 211, 231),
+        backgroundColor: const Color.fromARGB(213, 178, 211, 231),
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(230, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(230, 255, 255, 255),
           title: const Text(
             'Sign Language Translator',
             style: TextStyle(
@@ -73,7 +73,7 @@ class _LearnBasicsState extends State<LearnBasics> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => CurveBar()),
+                MaterialPageRoute(builder: (context) => const CurveBar()),
               );
             },
           ),
@@ -108,7 +108,7 @@ class _LearnBasicsState extends State<LearnBasics> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => AlphabetPage()),
+                  MaterialPageRoute(builder: (context) => const AlphabetPage()),
                 );
               },
             ),
@@ -120,7 +120,7 @@ class _LearnBasicsState extends State<LearnBasics> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => NumbersPage()),
+                  MaterialPageRoute(builder: (context) => const NumbersPage()),
                 );
               },
             ),
@@ -132,7 +132,7 @@ class _LearnBasicsState extends State<LearnBasics> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => ColorPage()),
+                  MaterialPageRoute(builder: (context) => const ColorPage()),
                 );
               },
             ),

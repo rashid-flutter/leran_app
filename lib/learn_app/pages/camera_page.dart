@@ -9,7 +9,7 @@ import '../bottom_bar/curvedNav.dart';
 import 'result_page.dart';
 
 class CameraPage extends StatefulWidget {
-  const CameraPage({Key? key}) : super(key: key);
+  const CameraPage({super.key});
 
   @override
   _CameraPageState createState() => _CameraPageState();
