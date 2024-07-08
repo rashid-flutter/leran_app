@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import '../pages/camera_page.dart';
 import '../pages/features_page.dart';
 import '../pages/learn_basics.dart';
 
@@ -16,7 +15,6 @@ class CurveBar extends StatefulWidget {
 class _CurveBarState extends State<CurveBar> {
   int index = 1;
   final List<Widget> _pages = const [
-    CameraPage(),
     FeaturesPage(),
     LearnBasics(),
   ];
@@ -24,7 +22,6 @@ class _CurveBarState extends State<CurveBar> {
   @override
   Widget build(BuildContext context) {
     final items = [
-      const Icon(Icons.translate, size: 30),
       const Icon(Icons.home, size: 30),
       const Icon(Icons.menu_book_outlined, size: 30),
     ];
