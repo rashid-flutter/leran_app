@@ -1,5 +1,5 @@
-import 'package:final_project/learn_app/pages/counter_page.dart';
-import 'package:final_project/learn_app/splash/intro_page.dart';
+import 'package:edukids/learn_app/pages/counter_page.dart';
+import 'package:edukids/learn_app/splash/intro_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

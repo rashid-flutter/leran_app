@@ -1,4 +1,4 @@
-name: final_project
+name: edukids
 description: "A new Flutter project."
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -23,7 +23,7 @@ dependencies:
   video_player: ^2.8.6
   chewie: ^1.8.1
 
-  # firebase_core: ^2.30.1
+  firebase_core: ^2.30.1
   # firebase_storage: ^11.7.4
   # firebase_messaging: ^14.9.1
   # firebase_auth: ^4.19.4

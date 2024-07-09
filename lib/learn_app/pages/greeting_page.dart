@@ -1,5 +1,5 @@
+import 'package:edukids/learn_app/pages/learn_basics.dart';
 import 'package:flutter/material.dart';
-import 'package:final_project/learn_app/pages/learn_basics.dart';
 
 class CustomElevatedButton extends StatelessWidget {
   final String text;

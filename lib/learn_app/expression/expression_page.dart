@@ -1,6 +1,6 @@
 // ignore_for_file: non_constant_identifier_names
 
-import 'package:final_project/learn_app/pages/learn_basics.dart';
+import 'package:edukids/learn_app/pages/learn_basics.dart';
 import 'package:flutter/material.dart';
 
 class CustomElevatedButton extends StatelessWidget {
